@@ -1,0 +1,6 @@
+server:
+  port: 9280
+
+spring:
+  profiles:
+    active: dev
