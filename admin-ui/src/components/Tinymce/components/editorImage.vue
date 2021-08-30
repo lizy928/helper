@@ -39,7 +39,7 @@ export default {
   },
   data() {
     return {
-      headers: {"X-Token": getToken() },
+      headers: {"token": getToken() },
       uploadUrl: process.env.BASE_API + "/api/upload/addImg",
       dialogVisible: false,
       listObj: {},

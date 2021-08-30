@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lizy.helper.modules.app.mapper.ChatRecordMapper">
+  <resultMap id="BaseResultMap" type="com.lizy.helper.modules.app.entity.ChatRecord">
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="from" jdbcType="BIGINT" property="from" />
+    <result column="to" jdbcType="BIGINT" property="to" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="text" jdbcType="VARCHAR" property="text" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="w" jdbcType="INTEGER" property="w" />
+    <result column="h" jdbcType="INTEGER" property="h" />
+    <result column="length" jdbcType="INTEGER" property="length" />
+    <result column="create_time" jdbcType="DATE" property="createTime" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, from, to, type, text, url, w, h, length, create_time
+  </sql>
+
+</mapper>

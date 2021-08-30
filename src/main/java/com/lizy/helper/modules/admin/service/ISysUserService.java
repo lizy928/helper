@@ -12,7 +12,7 @@ import java.util.List;
  * @author lizy
  * @date 2021/8/27 10:44
  */
-public interface IUserService extends IService<User> {
+public interface ISysUserService extends IService<User> {
 
     /**
      * 系统管理-用户基础信息表列表分页

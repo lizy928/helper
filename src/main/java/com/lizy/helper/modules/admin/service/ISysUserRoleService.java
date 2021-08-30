@@ -11,7 +11,7 @@ import java.util.List;
  * @author lizy
  * @date 2021/8/27 10:44
  */
-public interface IUserRoleService extends IService<UserRole> {
+public interface ISysUserRoleService extends IService<UserRole> {
 
     /**
      * 系统管理 - 用户角色关联表 列表分页

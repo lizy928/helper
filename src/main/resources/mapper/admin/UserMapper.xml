@@ -19,6 +19,7 @@
 		<result column="qq_oppen_id" property="qqOppenId" />
 		<result column="gmt_create" property="gmtCreate" />
 		<result column="gmt_modified" property="gmtModified" />
+		<result column="type" property="type"/>
 	</resultMap>
 
 

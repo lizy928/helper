@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.lizy.helper.modules.admin.dto.input.UserRoleQueryPara;
 import com.lizy.helper.modules.admin.entity.UserRole;
 import com.lizy.helper.modules.admin.mapper.UserRoleMapper;
-import com.lizy.helper.modules.admin.service.IUserRoleService;
+import com.lizy.helper.modules.admin.service.ISysUserRoleService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,10 +19,10 @@ import java.util.List;
  */
 @Service
 @Transactional
-public class UserRoleServiceImpl extends ServiceImpl<UserRoleMapper, UserRole> implements IUserRoleService {
+public class SysUserRoleServiceImpl extends ServiceImpl<UserRoleMapper, UserRole> implements ISysUserRoleService {
 
     @Autowired
-    UserRoleMapper userRoleMapper;
+    private UserRoleMapper userRoleMapper;
 
     @Override
     public void listPage(Page<UserRole> page, UserRoleQueryPara filter) {

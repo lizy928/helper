@@ -1,0 +1,1939 @@
+00:00:02.106 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:00:02.318 [http-nio-9280-exec-4] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:00:02:291, End: 2021-08-30 00:00:02:318, Total: 27ms, Code: 200   **********
+00:00:02.435 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:329ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"day":36,
+			"hour":23,
+			"minute":59,
+			"name":"Qewqew",
+			"second":57
+		},
+		{
+			"day":51,
+			"hour":23,
+			"minute":59,
+			"name":"Duweideshengri",
+			"second":57
+		}
+	],
+	"message":"ok"
+}
+00:00:19.709 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:00:19.929 [http-nio-9280-exec-5] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:00:19:908, End: 2021-08-30 00:00:19:929, Total: 21ms, Code: 200   **********
+00:00:20.019 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:310ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"day":36,
+			"hour":23,
+			"minute":59,
+			"name":"Qewqew",
+			"second":40
+		},
+		{
+			"day":51,
+			"hour":23,
+			"minute":59,
+			"name":"Duweideshengri",
+			"second":40
+		}
+	],
+	"message":"ok"
+}
+00:01:33.004 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:01:33.213 [http-nio-9280-exec-6] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:01:33:187, End: 2021-08-30 00:01:33:213, Total: 26ms, Code: 200   **********
+00:01:33.297 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:293ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"day":36,
+			"hour":23,
+			"minute":58,
+			"name":"Qewqew",
+			"second":26
+		},
+		{
+			"day":51,
+			"hour":23,
+			"minute":58,
+			"name":"Duweideshengri",
+			"second":26
+		}
+	],
+	"message":"ok"
+}
+00:08:45.382 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:08:45.388 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:08:51.133 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.4.1.Final
+00:08:51.141 [main] INFO  com.lizy.helper.Application - Starting Application using Java 1.8.0_181 on dlionydeMacBook-Pro.local with PID 13371 (/Users/dliony/app_workspace/helper/target/classes started by dliony in /Users/dliony/app_workspace/helper)
+00:08:51.141 [main] INFO  com.lizy.helper.Application - The following profiles are active: dev
+00:08:52.705 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9280 (http)
+00:08:52.713 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9280"]
+00:08:52.713 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:08:52.713 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+00:08:52.777 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:08:52.777 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1568 ms
+00:08:53.001 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:08:53.308 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:08:54.453 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/favicon.ico', GET] with []
+00:08:54.453 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.png', GET] with []
+00:08:54.454 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.ttf', GET] with []
+00:08:54.454 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/*.html', GET] with []
+00:08:54.454 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.css', GET] with []
+00:08:54.454 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.js', GET] with []
+00:08:54.493 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6785c9fa, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e73974, org.springframework.security.web.header.HeaderWriterFilter@6b126187, org.springframework.web.filter.CorsFilter@d87d449, org.springframework.security.web.authentication.logout.LogoutFilter@79d4ff58, com.lizy.helper.security.filter.AdminAuthenticationProcessingFilter@14f060b8, com.lizy.helper.security.filter.MyAuthenticationFilter@448462f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44eb2452, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@521ba38f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4b3ad7ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63cf578f, org.springframework.security.web.session.SessionManagementFilter@5cffec7, org.springframework.security.web.access.ExceptionTranslationFilter@3193e21d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72324965]
+00:08:54.944 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9280"]
+00:08:54.971 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9280 (http) with context path ''
+00:08:54.980 [main] INFO  com.lizy.helper.Application - Started Application in 4.434 seconds (JVM running for 5.112)
+00:09:06.671 [http-nio-9280-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:09:06.671 [http-nio-9280-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:09:06.672 [http-nio-9280-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:09:06.690 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:09:07.219 [http-nio-9280-exec-1] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:09:07:175, End: 2021-08-30 00:09:07:218, Total: 43ms, Code: 200   **********
+00:09:07.378 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:688ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":50,
+			"name":"Qewqew",
+			"second":52,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":50,
+			"name":"Duweideshengri",
+			"second":52
+		}
+	],
+	"message":"ok"
+}
+00:09:42.349 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:09:42.622 [http-nio-9280-exec-3] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:09:42:600, End: 2021-08-30 00:09:42:622, Total: 22ms, Code: 200   **********
+00:09:42.707 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:358ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":50,
+			"name":"Qewqew",
+			"second":17,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":50,
+			"name":"Duweideshengri",
+			"second":17
+		}
+	],
+	"message":"ok"
+}
+00:10:06.481 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:10:06.716 [http-nio-9280-exec-4] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:10:06:667, End: 2021-08-30 00:10:06:716, Total: 49ms, Code: 200   **********
+00:10:06.798 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:317ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":49,
+			"name":"Qewqew",
+			"second":53,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":49,
+			"name":"Duweideshengri",
+			"second":53
+		}
+	],
+	"message":"ok"
+}
+00:10:20.021 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:10:20.246 [http-nio-9280-exec-5] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:10:20:226, End: 2021-08-30 00:10:20:245, Total: 19ms, Code: 200   **********
+00:10:20.338 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:316ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":49,
+			"name":"Qewqew",
+			"second":39,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":49,
+			"name":"Duweideshengri",
+			"second":39
+		}
+	],
+	"message":"ok"
+}
+00:18:35.058 [http-nio-9280-exec-7] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:18:40.075 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@431f132e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:18:45.080 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5aa1a895 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:18:50.086 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c644c12 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:18:55.092 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@36e99138 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:19:00.101 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b78d739 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:19:05.107 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4bc7a64a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:19:05.114 [http-nio-9280-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30047ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30047ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy100.selectList(Unknown Source)
+	at com.lizy.helper.security.service.impl.UserDetailsServiceImpl.getUserByToken(UserDetailsServiceImpl.java:64)
+	at com.lizy.helper.security.filter.MyAuthenticationFilter.doFilterInternal(MyAuthenticationFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30047ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30047ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 63 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30047ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 68 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30047ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 77 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2480)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:566)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:173)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:186)
+	... 82 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:758)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:568)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2476)
+	... 85 common frames omitted
+00:19:10.119 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6edd50c8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:19:12.262 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:19:12.662 [http-nio-9280-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3885c585 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:19:15.124 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b0d65c1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:19:17.670 [http-nio-9280-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3897bf86 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:19:17.888 [http-nio-9280-exec-8] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:19:17:859, End: 2021-08-30 00:19:17:888, Total: 29ms, Code: 200   **********
+00:19:17.973 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:5710ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":40,
+			"name":"Qewqew",
+			"second":42,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":40,
+			"name":"Duweideshengri",
+			"second":42
+		}
+	],
+	"message":"ok"
+}
+00:19:18.284 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:19:18.699 [http-nio-9280-exec-9] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:19:18:677, End: 2021-08-30 00:19:18:699, Total: 22ms, Code: 200   **********
+00:19:18.802 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:517ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":40,
+			"name":"Qewqew",
+			"second":41,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":40,
+			"name":"Duweideshengri",
+			"second":41
+		}
+	],
+	"message":"ok"
+}
+00:20:11.761 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:20:11.969 [http-nio-9280-exec-1] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:20:11:945, End: 2021-08-30 00:20:11:969, Total: 24ms, Code: 200   **********
+00:20:12.057 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:296ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":39,
+			"name":"Qewqew",
+			"second":48,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":39,
+			"name":"Duweideshengri",
+			"second":48
+		}
+	],
+	"message":"ok"
+}
+00:21:49.426 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:21:49.645 [http-nio-9280-exec-3] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:21:49:614, End: 2021-08-30 00:21:49:645, Total: 31ms, Code: 200   **********
+00:21:49.723 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:297ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":38,
+			"name":"Qewqew",
+			"second":10,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":38,
+			"name":"Duweideshengri",
+			"second":10
+		}
+	],
+	"message":"ok"
+}
+00:25:20.729 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:25:20.949 [http-nio-9280-exec-5] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:25:20:925, End: 2021-08-30 00:25:20:949, Total: 24ms, Code: 200   **********
+00:25:21.028 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:298ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":34,
+			"name":"Qewqew",
+			"second":39,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":34,
+			"name":"Duweideshengri",
+			"second":39
+		}
+	],
+	"message":"ok"
+}
+00:30:29.063 [http-nio-9280-exec-7] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:30:34.069 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1cc274a2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:30:39.074 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21f8d036 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:30:44.078 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5679ad35 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:30:49.086 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4a1be347 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:30:54.095 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57bfe96 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:30:59.100 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51eae23e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:30:59.103 [http-nio-9280-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30037ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30037ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy100.selectList(Unknown Source)
+	at com.lizy.helper.security.service.impl.UserDetailsServiceImpl.getUserByToken(UserDetailsServiceImpl.java:64)
+	at com.lizy.helper.security.filter.MyAuthenticationFilter.doFilterInternal(MyAuthenticationFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30037ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30037ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 63 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30037ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 68 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30037ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 77 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2480)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:566)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:173)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:186)
+	... 82 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:758)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:568)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2476)
+	... 85 common frames omitted
+00:31:04.110 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@629e9e68 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:31:09.117 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@163ae8a4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:31:14.126 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a6828f1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:31:19.128 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73a54200 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:32:38.469 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:32:38.670 [http-nio-9280-exec-8] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:32:38:648, End: 2021-08-30 00:32:38:669, Total: 21ms, Code: 200   **********
+00:32:38.779 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:310ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":27,
+			"name":"Qewqew",
+			"second":21,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":27,
+			"name":"Duweideshengri",
+			"second":21
+		}
+	],
+	"message":"ok"
+}
+00:32:59.340 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:32:59.541 [http-nio-9280-exec-9] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:32:59:519, End: 2021-08-30 00:32:59:540, Total: 21ms, Code: 200   **********
+00:32:59.632 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:291ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":27,
+			"name":"Qewqew",
+			"second":0,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":27,
+			"name":"Duweideshengri",
+			"second":0
+		}
+	],
+	"message":"ok"
+}
+00:36:24.330 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:36:24.549 [http-nio-9280-exec-1] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:36:24:523, End: 2021-08-30 00:36:24:549, Total: 26ms, Code: 200   **********
+00:36:24.639 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:309ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":23,
+			"name":"Qewqew",
+			"second":35,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":23,
+			"name":"Duweideshengri",
+			"second":35
+		}
+	],
+	"message":"ok"
+}
+00:37:11.968 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:37:12.164 [http-nio-9280-exec-3] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:37:12:144, End: 2021-08-30 00:37:12:163, Total: 19ms, Code: 200   **********
+00:37:12.251 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:283ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":22,
+			"name":"Qewqew",
+			"second":47,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":22,
+			"name":"Duweideshengri",
+			"second":47
+		}
+	],
+	"message":"ok"
+}
+00:39:09.373 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:39:09.569 [http-nio-9280-exec-5] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:39:09:550, End: 2021-08-30 00:39:09:569, Total: 19ms, Code: 200   **********
+00:39:09.649 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:276ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":20,
+			"name":"Qewqew",
+			"second":50,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":20,
+			"name":"Duweideshengri",
+			"second":50
+		}
+	],
+	"message":"ok"
+}
+00:49:24.335 [http-nio-9280-exec-7] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:49:29.341 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7fc6f666 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:34.350 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69cb6111 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:39.355 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@78b14662 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:41.830 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:49:44.363 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41d7f774 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:44.777 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:49:46.837 [http-nio-9280-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@551ebdd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:49.367 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@64e25090 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:49.788 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1681afbb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:51.842 [http-nio-9280-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62e55b51 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:52.270 [http-nio-9280-exec-8] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:49:52:243, End: 2021-08-30 00:49:52:270, Total: 27ms, Code: 200   **********
+00:49:52.356 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:10526ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":10,
+			"name":"Qewqew",
+			"second":7,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":10,
+			"name":"Duweideshengri",
+			"second":7
+		}
+	],
+	"message":"ok"
+}
+00:49:54.371 [http-nio-9280-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@219e66e7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:54.373 [http-nio-9280-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30035ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30035ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy100.selectList(Unknown Source)
+	at com.lizy.helper.security.service.impl.UserDetailsServiceImpl.getUserByToken(UserDetailsServiceImpl.java:64)
+	at com.lizy.helper.security.filter.MyAuthenticationFilter.doFilterInternal(MyAuthenticationFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30035ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30035ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 63 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30035ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 68 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30035ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 77 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2480)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:566)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:173)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:186)
+	... 82 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:758)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:568)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2476)
+	... 85 common frames omitted
+00:49:54.792 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@29570ec4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:49:54.980 [http-nio-9280-exec-9] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:49:54:957, End: 2021-08-30 00:49:54:980, Total: 23ms, Code: 200   **********
+00:49:55.060 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:10282ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":10,
+			"name":"Qewqew",
+			"second":5,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":10,
+			"name":"Duweideshengri",
+			"second":5
+		}
+	],
+	"message":"ok"
+}
+00:57:11.312 [http-nio-9280-exec-2] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:57:16.321 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69c78f72 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:21.327 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5864c626 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:26.330 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c81c8c0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:31.337 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6bbb473c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:36.350 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4785e421 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:41.358 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c95395b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:41.360 [http-nio-9280-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30043ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30043ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy100.selectList(Unknown Source)
+	at com.lizy.helper.security.service.impl.UserDetailsServiceImpl.getUserByToken(UserDetailsServiceImpl.java:64)
+	at com.lizy.helper.security.filter.MyAuthenticationFilter.doFilterInternal(MyAuthenticationFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30043ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30043ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 63 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30043ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 68 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30043ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 77 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2480)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:566)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:173)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:186)
+	... 82 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:758)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:568)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2476)
+	... 85 common frames omitted
+00:57:46.367 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46978e75 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:51.376 [http-nio-9280-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e2d47b8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+00:57:52.722 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:57:52.954 [http-nio-9280-exec-3] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:57:52:925, End: 2021-08-30 00:57:52:953, Total: 28ms, Code: 200   **********
+00:57:53.052 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:330ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":2,
+			"name":"Qewqew",
+			"second":7,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":2,
+			"name":"Duweideshengri",
+			"second":7
+		}
+	],
+	"message":"ok"
+}
+00:58:21.741 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+00:58:21.979 [http-nio-9280-exec-4] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 00:58:21:942, End: 2021-08-30 00:58:21:979, Total: 37ms, Code: 200   **********
+00:58:22.097 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:355ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":23,
+			"minute":1,
+			"name":"Qewqew",
+			"second":38,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":23,
+			"minute":1,
+			"name":"Duweideshengri",
+			"second":38
+		}
+	],
+	"message":"ok"
+}
+01:00:14.850 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:00:15.080 [http-nio-9280-exec-6] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:00:15:048, End: 2021-08-30 01:00:15:080, Total: 32ms, Code: 200   **********
+01:00:15.175 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:324ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":59,
+			"name":"Qewqew",
+			"second":44,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":59,
+			"name":"Duweideshengri",
+			"second":44
+		}
+	],
+	"message":"ok"
+}
+01:01:42.121 [http-nio-9280-exec-7] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:01:42.555 [http-nio-9280-exec-7] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:01:42:529, End: 2021-08-30 01:01:42:555, Total: 26ms, Code: 200   **********
+01:01:42.645 [http-nio-9280-exec-7] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:524ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":58,
+			"name":"Qewqew",
+			"second":17,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":58,
+			"name":"Duweideshengri",
+			"second":17
+		}
+	],
+	"message":"ok"
+}
+01:03:57.967 [http-nio-9280-exec-10] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:03:58.192 [http-nio-9280-exec-10] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:03:58:165, End: 2021-08-30 01:03:58:192, Total: 27ms, Code: 200   **********
+01:03:58.327 [http-nio-9280-exec-10] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:360ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":56,
+			"name":"Qewqew",
+			"second":1,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":56,
+			"name":"Duweideshengri",
+			"second":1
+		}
+	],
+	"message":"ok"
+}
+01:05:07.325 [http-nio-9280-exec-2] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:05:07.557 [http-nio-9280-exec-2] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:05:07:525, End: 2021-08-30 01:05:07:557, Total: 32ms, Code: 200   **********
+01:05:07.650 [http-nio-9280-exec-2] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:325ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":54,
+			"name":"Qewqew",
+			"second":52,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":54,
+			"name":"Duweideshengri",
+			"second":52
+		}
+	],
+	"message":"ok"
+}
+01:06:43.679 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:06:43.909 [http-nio-9280-exec-4] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:06:43:876, End: 2021-08-30 01:06:43:908, Total: 32ms, Code: 200   **********
+01:06:44.018 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:339ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":53,
+			"name":"Qewqew",
+			"second":16,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":53,
+			"name":"Duweideshengri",
+			"second":16
+		}
+	],
+	"message":"ok"
+}
+01:07:09.903 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:07:10.133 [http-nio-9280-exec-5] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:07:10:101, End: 2021-08-30 01:07:10:133, Total: 32ms, Code: 200   **********
+01:07:10.234 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:330ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":52,
+			"name":"Qewqew",
+			"second":49,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":52,
+			"name":"Duweideshengri",
+			"second":49
+		}
+	],
+	"message":"ok"
+}
+01:08:18.180 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:08:18.432 [http-nio-9280-exec-8] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:08:18:405, End: 2021-08-30 01:08:18:432, Total: 27ms, Code: 200   **********
+01:08:18.517 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:337ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":51,
+			"name":"Qewqew",
+			"second":41,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":51,
+			"name":"Duweideshengri",
+			"second":41
+		}
+	],
+	"message":"ok"
+}
+01:09:16.413 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:09:16.628 [http-nio-9280-exec-9] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:09:16:607, End: 2021-08-30 01:09:16:628, Total: 21ms, Code: 200   **********
+01:09:16.745 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:331ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":50,
+			"name":"Qewqew",
+			"second":43,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":50,
+			"name":"Duweideshengri",
+			"second":43
+		}
+	],
+	"message":"ok"
+}
+01:16:56.940 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:16:57.403 [http-nio-9280-exec-1] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:16:57:375, End: 2021-08-30 01:16:57:402, Total: 27ms, Code: 200   **********
+01:16:57.484 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:543ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":43,
+			"name":"Qewqew",
+			"second":2,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":43,
+			"name":"Duweideshengri",
+			"second":2
+		}
+	],
+	"message":"ok"
+}
+01:17:46.223 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:17:46.449 [http-nio-9280-exec-3] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:17:46:419, End: 2021-08-30 01:17:46:449, Total: 30ms, Code: 200   **********
+01:17:46.541 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:318ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":42,
+			"name":"Qewqew",
+			"second":13,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":42,
+			"name":"Duweideshengri",
+			"second":13
+		}
+	],
+	"message":"ok"
+}
+01:19:18.223 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:19:23.230 [http-nio-9280-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6cc3c8c6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:25.078 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:19:28.238 [http-nio-9280-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7a4fd7c6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:30.087 [http-nio-9280-exec-6] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63f76d6f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:33.246 [http-nio-9280-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@416757e7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:35.093 [http-nio-9280-exec-6] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e47caf7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:38.267 [http-nio-9280-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@34de2b2a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:38.291 [http-nio-9280-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@302b3b90 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:40.103 [http-nio-9280-exec-6] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6affbdd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:40.315 [http-nio-9280-exec-6] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:19:40:287, End: 2021-08-30 01:19:40:315, Total: 28ms, Code: 200   **********
+01:19:40.396 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:15317ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":40,
+			"name":"Qewqew",
+			"second":19,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":40,
+			"name":"Duweideshengri",
+			"second":19
+		}
+	],
+	"message":"ok"
+}
+01:19:43.294 [http-nio-9280-exec-5] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26cbc4a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:19:43.501 [http-nio-9280-exec-5] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:19:43:474, End: 2021-08-30 01:19:43:501, Total: 27ms, Code: 200   **********
+01:19:43.590 [http-nio-9280-exec-5] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:25367ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":40,
+			"name":"Qewqew",
+			"second":16,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":40,
+			"name":"Duweideshengri",
+			"second":16
+		}
+	],
+	"message":"ok"
+}
+01:20:55.770 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:20:55.995 [http-nio-9280-exec-9] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:20:55:970, End: 2021-08-30 01:20:55:995, Total: 25ms, Code: 200   **********
+01:20:56.111 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:341ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":39,
+			"name":"Qewqew",
+			"second":4,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":39,
+			"name":"Duweideshengri",
+			"second":4
+		}
+	],
+	"message":"ok"
+}
+01:23:41.189 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:23:41.673 [http-nio-9280-exec-1] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:23:41:640, End: 2021-08-30 01:23:41:673, Total: 33ms, Code: 200   **********
+01:23:41.765 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:575ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":36,
+			"name":"Qewqew",
+			"second":18,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":36,
+			"name":"Duweideshengri",
+			"second":18
+		}
+	],
+	"message":"ok"
+}
+01:25:27.644 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:25:27.860 [http-nio-9280-exec-3] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:25:27:834, End: 2021-08-30 01:25:27:860, Total: 26ms, Code: 200   **********
+01:25:27.945 [http-nio-9280-exec-3] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:301ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":34,
+			"name":"Qewqew",
+			"second":32,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":34,
+			"name":"Duweideshengri",
+			"second":32
+		}
+	],
+	"message":"ok"
+}
+01:26:17.973 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:26:18.199 [http-nio-9280-exec-6] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:26:18:163, End: 2021-08-30 01:26:18:199, Total: 36ms, Code: 200   **********
+01:26:18.285 [http-nio-9280-exec-6] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:311ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":33,
+			"name":"Qewqew",
+			"second":41,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":33,
+			"name":"Duweideshengri",
+			"second":41
+		}
+	],
+	"message":"ok"
+}
+01:27:06.353 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:27:06.630 [http-nio-9280-exec-8] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:27:06:604, End: 2021-08-30 01:27:06:630, Total: 26ms, Code: 200   **********
+01:27:06.713 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:360ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":32,
+			"name":"Qewqew",
+			"second":53,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":32,
+			"name":"Duweideshengri",
+			"second":53
+		}
+	],
+	"message":"ok"
+}
+01:33:37.718 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:33:42.728 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7522e4bf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:33:47.741 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@512c3adc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:33:52.750 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14067722 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:33:57.754 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4a19d82b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:34:02.765 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9d768a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:34:07.775 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61cc9538 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:34:07.807 [http-nio-9280-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30057ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30057ms.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy86.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy100.selectList(Unknown Source)
+	at com.lizy.helper.security.service.impl.UserDetailsServiceImpl.getUserByToken(UserDetailsServiceImpl.java:64)
+	at com.lizy.helper.security.filter.MyAuthenticationFilter.doFilterInternal(MyAuthenticationFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30057ms.
+### The error may exist in com/lizy/helper/modules/admin/mapper/UserMapper.java (best guess)
+### The error may involve com.lizy.helper.modules.admin.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30057ms.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.GeneratedMethodAccessor86.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 63 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30057ms.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:136)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	... 68 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30057ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 77 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2480)
+	at com.zaxxer.hikari.pool.PoolBase.setNetworkTimeout(PoolBase.java:566)
+	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:173)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:186)
+	... 82 common frames omitted
+Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.
+	at sun.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.NativeSession.checkClosed(NativeSession.java:758)
+	at com.mysql.cj.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:568)
+	at com.mysql.cj.jdbc.ConnectionImpl.setNetworkTimeout(ConnectionImpl.java:2476)
+	... 85 common frames omitted
+01:34:08.380 [http-nio-9280-exec-10] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:34:12.824 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@501d22 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:34:13.393 [http-nio-9280-exec-10] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44b6aed3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:34:15.050 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/signIn` 接收到的参数: 
+01:34:15.364 [http-nio-9280-exec-1] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/signIn, Start: 2021-08-30 01:34:15:284, End: 2021-08-30 01:34:15:364, Total: 80ms, Code: 200   **********
+01:34:15.470 [http-nio-9280-exec-1] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/signIn`  耗时:419ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-08-28 03:53:46",
+			"desc":"sdfdfdsfdsfewqrqrqewqeqeqweqe",
+			"id":3,
+			"name":"测试签到",
+			"updateTime":"2021-08-28 07:00:25",
+			"userId":10
+		},
+		{
+			"createTime":"2021-08-28 03:53:47",
+			"desc":"sdfdfdsfdsfewqrqrqewqeqeqweqe",
+			"id":4,
+			"name":"DaSdfsfdsfdsfdsfdsd ds",
+			"userId":10
+		},
+		{
+			"createTime":"2021-08-28 03:53:48",
+			"desc":"sdfdfdsfdsfewqrqrqewqeqeqweqe",
+			"id":5,
+			"name":"DaSdfsfdsfdsfdsfdsd ds",
+			"userId":10
+		},
+		{
+			"createTime":"2021-08-28 03:55:35",
+			"desc":"Adsadsadsadsadsadsadsadsadsad",
+			"id":6,
+			"name":"Asdadadadsad",
+			"userId":10
+		},
+		{
+			"createTime":"2021-08-28 03:55:39",
+			"desc":"Adsadsadsadsadsadsadsadsadsad",
+			"id":7,
+			"name":"Asdadadadsad",
+			"userId":10
+		},
+		{
+			"createTime":"2021-08-28 03:57:13",
+			"desc":"Sadsadsadsadsadsadsa",
+			"id":8,
+			"name":"Sadadsadsadsa",
+			"userId":10
+		},
+		{
+			"createTime":"2021-08-28 03:57:13",
+			"desc":"Sadsadsadsadsadsadsa",
+			"id":9,
+			"name":"Sadadsadsadsa",
+			"userId":10
+		},
+		{
+			"createTime":"2021-08-28 03:57:14",
+			"desc":"Sadsadsadsadsadsadsa",
+			"id":10,
+			"name":"Sadadsadsadsa",
+			"userId":10
+		}
+	],
+	"message":"ok"
+}
+01:34:17.831 [http-nio-9280-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@66ca61c8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:34:18.396 [http-nio-9280-exec-10] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6999a035 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+01:34:18.593 [http-nio-9280-exec-10] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:34:18:574, End: 2021-08-30 01:34:18:593, Total: 19ms, Code: 200   **********
+01:34:18.671 [http-nio-9280-exec-10] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:10290ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":25,
+			"name":"Qewqew",
+			"second":41,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":25,
+			"name":"Duweideshengri",
+			"second":41
+		}
+	],
+	"message":"ok"
+}
+01:34:19.974 [http-nio-9280-exec-2] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/im/robot` 接收到的参数: 
+01:34:20.235 [http-nio-9280-exec-2] INFO  c.l.h.modules.app.api.ChatWebSocket - 有新连接加入：0，当前在线人数为：1
+01:34:22.420 [http-nio-9280-exec-3] INFO  c.l.h.modules.app.api.ChatWebSocket - 有一连接关闭：0，当前在线人数为：0
+01:34:23.440 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:34:23.651 [http-nio-9280-exec-4] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:34:23:624, End: 2021-08-30 01:34:23:651, Total: 27ms, Code: 200   **********
+01:34:23.734 [http-nio-9280-exec-4] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:294ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":25,
+			"name":"Qewqew",
+			"second":36,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":25,
+			"name":"Duweideshengri",
+			"second":36
+		}
+	],
+	"message":"ok"
+}
+01:36:16.349 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:36:16.579 [http-nio-9280-exec-8] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:36:16:554, End: 2021-08-30 01:36:16:579, Total: 25ms, Code: 200   **********
+01:36:16.661 [http-nio-9280-exec-8] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:311ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":23,
+			"name":"Qewqew",
+			"second":43,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":23,
+			"name":"Duweideshengri",
+			"second":43
+		}
+	],
+	"message":"ok"
+}
+01:36:38.480 [http-nio-9280-exec-7] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:36:38.702 [http-nio-9280-exec-7] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:36:38:678, End: 2021-08-30 01:36:38:702, Total: 24ms, Code: 200   **********
+01:36:38.791 [http-nio-9280-exec-7] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:311ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":23,
+			"name":"Qewqew",
+			"second":21,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":23,
+			"name":"Duweideshengri",
+			"second":21
+		}
+	],
+	"message":"ok"
+}
+01:40:09.397 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder` 接收到的参数: 
+01:40:09.594 [http-nio-9280-exec-9] INFO  c.l.h.m.c.i.SystemLogAspect - **********   Url: http://127.0.0.1:9280/app/eventReminder, Start: 2021-08-30 01:40:09:571, End: 2021-08-30 01:40:09:594, Total: 23ms, Code: 200   **********
+01:40:09.703 [http-nio-9280-exec-9] INFO  c.l.h.s.f.MyAuthenticationFilter - `/app/eventReminder`  耗时:306ms  返回的参数: {
+	"code":200,
+	"data":[
+		{
+			"createTime":"2021-09-29 11:51:43",
+			"day":36,
+			"hour":22,
+			"minute":19,
+			"name":"Qewqew",
+			"second":50,
+			"updateTime":"2021-08-29 13:46:20"
+		},
+		{
+			"createTime":"2021-08-29 14:06:03",
+			"day":51,
+			"hour":22,
+			"minute":19,
+			"name":"Duweideshengri",
+			"second":50
+		}
+	],
+	"message":"ok"
+}
+02:04:59.249 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m35s272ms).
+02:10:40.995 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s720ms).
+02:16:22.724 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s709ms).
+02:21:34.444 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s720ms).
+02:27:16.142 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s681ms).
+02:32:58.066 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s912ms).
+02:38:39.729 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s668ms).
+02:43:51.508 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s779ms).
+02:49:33.192 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s683ms).
+02:55:14.867 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s669ms).
+03:00:56.528 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s660ms).
+03:06:08.188 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s660ms).
+03:11:49.823 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s641ms).
+03:17:31.483 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s661ms).
+03:23:13.112 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s640ms).
+03:28:24.912 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s800ms).
+03:34:06.613 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s687ms).
+03:39:48.366 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s736ms).
+03:45:30.025 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s658ms).
+03:50:41.730 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s705ms).
+03:56:23.821 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s769ms).
+04:02:05.482 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s656ms).
+04:07:47.200 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s707ms).
+04:12:58.882 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s682ms).
+04:18:40.568 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s677ms).
+04:24:22.283 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s707ms).
+04:30:14.192 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m21s905ms).
+04:35:31.971 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m17s779ms).
+04:45:31.869 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m29s888ms).
+04:51:13.630 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s760ms).
+04:56:55.277 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s659ms).
+05:02:07.995 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s718ms).
+05:07:49.706 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s706ms).
+05:13:31.363 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s659ms).
+05:19:13.046 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s687ms).
+05:24:25.669 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s623ms).
+05:30:07.369 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s691ms).
+05:35:49.167 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s789ms).
+05:41:31.062 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s882ms).
+05:46:43.040 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s978ms).
+05:52:25.447 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s670ms).
+05:58:07.179 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s726ms).
+06:03:48.857 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s672ms).
+06:09:00.569 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s712ms).
+06:14:42.244 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s680ms).
+06:20:23.928 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s681ms).
+06:26:05.609 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s671ms).
+06:31:17.299 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s690ms).
+06:36:58.992 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s682ms).
+06:42:40.685 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s683ms).
+06:48:22.375 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s683ms).
+06:53:34.047 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s673ms).
+06:59:15.805 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s741ms).
+07:04:57.518 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s704ms).
+07:10:39.160 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s639ms).
+07:15:50.830 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s669ms).
+07:21:32.521 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s691ms).
+07:27:14.239 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s688ms).
+07:32:56.020 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s779ms).
+07:38:08.371 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s351ms).
+07:43:50.829 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s716ms).
+07:49:32.511 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s675ms).
+07:50:56.411 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s888ms).
+07:56:08.769 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s358ms).
+08:01:50.485 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s706ms).
+08:05:08.631 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s142ms).

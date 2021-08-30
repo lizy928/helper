@@ -3,7 +3,7 @@ package com.lizy.helper.modules.admin.api;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.lizy.helper.modules.admin.dto.input.UserRoleQueryPara;
 import com.lizy.helper.modules.admin.entity.UserRole;
-import com.lizy.helper.modules.admin.service.IUserRoleService;
+import com.lizy.helper.modules.admin.service.ISysUserRoleService;
 import com.lizy.helper.modules.common.api.BaseController;
 import com.lizy.helper.modules.common.dto.output.ApiResult;
 import io.swagger.annotations.Api;
@@ -27,48 +27,48 @@ import java.util.List;
 public class SysUserRoleController extends BaseController {
 
     @Autowired
-    IUserRoleService userRoleService;
+    private ISysUserRoleService sysUserRoleService;
 
     @PostMapping(value = "/listPage", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "获取系统管理 - 用户角色关联表 列表分页", httpMethod = "POST", response = ApiResult.class)
     public ApiResult listPage(@RequestBody UserRoleQueryPara filter) {
         Page<UserRole> page = new Page<>(filter.getPage(),filter.getLimit());
-        userRoleService.listPage(page, filter);
+        sysUserRoleService.listPage(page, filter);
         return ApiResult.ok("获取系统管理 - 用户角色关联表 列表分页成功", page);
     }
 
     @PostMapping(value = "/list", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "获取系统管理 - 用户角色关联表 列表", httpMethod = "POST", response = ApiResult.class)
     public ApiResult list(@RequestBody UserRoleQueryPara filter) {
-        List<UserRole> result = userRoleService.list(filter);
+        List<UserRole> result = sysUserRoleService.list(filter);
         return ApiResult.ok("获取系统管理 - 用户角色关联表 列表成功",result);
     }
 
     @PostMapping(value = "/saveOrUpdate", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "保存或更新系统管理 - 用户角色关联表 ", httpMethod = "POST", response = ApiResult.class)
     public ApiResult saveOrUpdate(@RequestBody UserRole input) {
-        Integer id = userRoleService.save(input);
+        Integer id = sysUserRoleService.save(input);
         return ApiResult.ok("保存系统管理 - 用户角色关联表 成功", id);
     }
 
     @PostMapping(value = "/delete", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "删除系统管理 - 用户角色关联表 ", httpMethod = "POST", response = ApiResult.class)
     public ApiResult delete(@RequestBody UserRoleQueryPara input) {
-        userRoleService.deleteById(input.getId());
+        sysUserRoleService.deleteById(input.getId());
         return ApiResult.ok("删除系统管理 - 用户角色关联表 成功");
     }
 
     @PostMapping(value = "/detail", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "根据ID获取系统管理 - 用户角色关联表 信息", httpMethod = "POST", response = ApiResult.class)
     public ApiResult detail(@RequestBody UserRoleQueryPara input) {
-        UserRole entity = userRoleService.selectById(input.getId());
+        UserRole entity = sysUserRoleService.selectById(input.getId());
         return ApiResult.ok("获取用户角色关联信息成功", entity);
     }
 
     @PostMapping(value = "/saveUserRole", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "保存角色相关联用户", httpMethod = "POST", response = ApiResult.class)
     public ApiResult saveUserRole(@RequestBody UserRoleQueryPara input) {
-        userRoleService.saveUserRole( input );
+        sysUserRoleService.saveUserRole( input );
         return ApiResult.ok("保存角色相关联用户成功");
     }
 

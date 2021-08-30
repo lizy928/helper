@@ -29,7 +29,7 @@ public class Constants {
     /**
      * 请求头 - token
      */
-    public static final String REQUEST_HEADER = "X-Token";
+    public static final String REQUEST_HEADER = "token";
 
     /**
      * 请求头类型：
@@ -42,5 +42,8 @@ public class Constants {
      * 登录者角色
      */
     public static final String ROLE_LOGIN = "role_login";
+
+    public static final Integer USER_TYPE_COMMON = 0;
+    public static final Integer USER_TYPE_ADMIN = 1;
 
 }

@@ -122,6 +122,10 @@ public class User extends BaseEntity<User> {
 	@TableField("qq_oppen_id")
 	private String qqOppenId;
 
+	// 0-管理员，1-普通用户，3-vip
+	@TableField("type")
+	private Integer type;
+
 //	@NotBlank(message = "身份证号不能为空")
 //	@IdentityCardNumber(message = "身份证信息有误,请核对后提交")
 //	private String clientCardNo;

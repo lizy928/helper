@@ -42,7 +42,7 @@
     },
     data() {
       return {
-        headers: {"X-Token": getToken() },
+        headers: {"token": getToken() },
         uploadUrl: process.env.BASE_API + "/api/upload/addImg",
         tempUrl: '',
         dataObj: {token: '', key: ''},
@@ -94,7 +94,7 @@
         }
 
         _self._data.dataObj.key = file.name;
-        //_self._data.headers = {"X-Token":getToken()};
+        //_self._data.headers = {"token":getToken()};
       }
     }
   }

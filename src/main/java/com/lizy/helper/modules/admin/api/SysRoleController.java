@@ -3,7 +3,7 @@ package com.lizy.helper.modules.admin.api;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.lizy.helper.modules.admin.dto.input.RoleQueryPara;
 import com.lizy.helper.modules.admin.entity.Role;
-import com.lizy.helper.modules.admin.service.IRoleService;
+import com.lizy.helper.modules.admin.service.ISysRoleService;
 import com.lizy.helper.modules.common.api.BaseController;
 import com.lizy.helper.modules.common.dto.output.ApiResult;
 import io.swagger.annotations.Api;
@@ -28,7 +28,7 @@ import java.util.List;
 public class SysRoleController extends BaseController {
 
     @Autowired
-    IRoleService roleService;
+    ISysRoleService roleService;
 
     @PostMapping(value = "/listPage", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "获取系统管理-角色表 列表分页", httpMethod = "POST", response = ApiResult.class)

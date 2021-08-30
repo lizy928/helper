@@ -32,6 +32,7 @@ helper:
     # 错误超过次数后多少分钟后才能继续登录（分钟）
     loginAfterTime: 10
     ignoreUrls:
+      - /app/user/register
       - /login
       - /api/system/user/getCurrentUserInfo
       - /index
@@ -48,3 +49,6 @@ helper:
       - /**/*.css
       - /**/*.png
       - /**/*.ico
+
+robot:
+  url: http://api.qingyunke.com/api.php?key=free&appid=0&msg=

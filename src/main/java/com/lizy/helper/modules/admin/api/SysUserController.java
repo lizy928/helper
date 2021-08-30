@@ -7,7 +7,7 @@ import com.lizy.helper.modules.admin.dto.input.UserQueryPara;
 import com.lizy.helper.modules.admin.dto.model.UserInfoVO;
 import com.lizy.helper.modules.admin.dto.output.UserTreeNode;
 import com.lizy.helper.modules.admin.entity.User;
-import com.lizy.helper.modules.admin.service.IUserService;
+import com.lizy.helper.modules.admin.service.ISysUserService;
 import com.lizy.helper.modules.common.api.BaseController;
 import com.lizy.helper.modules.common.dto.output.ApiResult;
 import io.swagger.annotations.Api;
@@ -29,11 +29,11 @@ import java.util.List;
 public class SysUserController extends BaseController {
 
     @Resource
-    private IUserService userService;
+    private ISysUserService userService;
 
     @PostMapping(value = "/getCurrentUserInfo", produces = "application/json;charset=utf-8")
     @ApiOperation(value = "获取当前登录用户信息", httpMethod = "POST", response = ApiResult.class, notes = "获取当前登录用户信息")
-    public ApiResult getCurrentUserInfo(@RequestHeader(name = "X-Token") String token) {
+    public ApiResult getCurrentUserInfo(@RequestHeader(name = "token") String token) {
         UserInfoVO info = userService.getCurrentUserInfo(token);
         return ApiResult.ok(200, "获取当前登录用户信息成功", info);
     }

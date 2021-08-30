@@ -11,7 +11,7 @@ import java.util.List;
  * @author lizy
  * @date 2021/8/27 10:44
  */
-public interface IRoleService extends IService<Role> {
+public interface ISysRoleService extends IService<Role> {
 
     /**
      * 系统管理-角色表 列表分页

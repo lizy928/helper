@@ -13,8 +13,7 @@ import com.lizy.helper.modules.admin.entity.User;
 import com.lizy.helper.modules.admin.mapper.RoleMenuMapper;
 import com.lizy.helper.modules.admin.mapper.UserMapper;
 import com.lizy.helper.modules.admin.mapper.UserRoleMapper;
-import com.lizy.helper.modules.admin.service.IUserService;
-import com.lizy.helper.modules.common.constans.Constants;
+import com.lizy.helper.modules.admin.service.ISysUserService;
 import com.lizy.helper.modules.common.exception.MyException;
 import com.lizy.helper.utils.CommonUtil;
 import com.lizy.helper.utils.PasswordUtils;
@@ -36,7 +35,7 @@ import java.util.Set;
  */
 @Service
 @Transactional
-public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
+public class SysUserServiceImpl extends ServiceImpl<UserMapper, User> implements ISysUserService {
 
     @Autowired
     UserMapper userMapper;

@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.lizy.helper.modules.admin.dto.input.RoleQueryPara;
 import com.lizy.helper.modules.admin.entity.Role;
 import com.lizy.helper.modules.admin.mapper.RoleMapper;
-import com.lizy.helper.modules.admin.service.IRoleService;
+import com.lizy.helper.modules.admin.service.ISysRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,7 +18,7 @@ import java.util.List;
  */
 @Service
 @Transactional
-public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements IRoleService {
+public class RoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements ISysRoleService {
 
     @Autowired
     RoleMapper roleMapper;
