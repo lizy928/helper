@@ -3,11 +3,16 @@ package com.lizy.helper.modules.app.api;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.lizy.helper.modules.admin.entity.User;
 import com.lizy.helper.modules.app.entity.SignIn;
+import com.lizy.helper.modules.app.entity.SignInRecord;
 import com.lizy.helper.modules.app.model.SignInModel;
+import com.lizy.helper.modules.app.service.ISignInRecordService;
 import com.lizy.helper.modules.app.service.ISignInService;
 import com.lizy.helper.modules.common.annotation.LoginUser;
 import com.lizy.helper.modules.common.dto.output.ApiResult;
+import com.lizy.helper.utils.DateTimeUtils;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -25,6 +30,8 @@ public class SignInController {
 
     @Resource
     private ISignInService signInService;
+    @Autowired
+    private ISignInRecordService signInRecordService;
 
     /**
      * 新增打卡项目
@@ -51,6 +58,10 @@ public class SignInController {
     @GetMapping
     public Object list(@LoginUser User user) {
         final List<SignIn> signInList = signInService.selectList(new EntityWrapper<SignIn>().eq("user_id", user.getId()));
+        signInList.forEach(signIn -> {
+            final List<SignInRecord> signInRecordList = signInRecordService.listByDate(signIn.getId(), DateTimeUtils.getStartToday(), DateTimeUtils.getEndToday());
+            signIn.setTodaySignIn(!CollectionUtils.isEmpty(signInRecordList));
+        });
         return ApiResult.ok("ok", signInList);
     }
 

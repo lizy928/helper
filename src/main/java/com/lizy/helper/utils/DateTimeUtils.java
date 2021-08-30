@@ -5,8 +5,10 @@ import org.apache.commons.lang3.StringUtils;
 import java.lang.management.ManagementFactory;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAdjusters;
+import java.util.*;
 
 /**
  * @author lizy
@@ -457,5 +459,52 @@ public class DateTimeUtils {
         final String compare = dateFormat(date, DATE_PATTERN);
         final String now = dateFormat(new Date(), DATE_PATTERN);
         return StringUtils.equals(compare, now);
+    }
+
+    /**
+     * 获取当月的开始时间和结束时间
+     *
+     * @param today   时间
+     * @param pattern 时间格式
+     * @return
+     */
+    public static Map getMonthStartAndEndTime(LocalDate today, String pattern) {
+        if (Objects.isNull(today)) {
+            today = LocalDate.now();
+        }
+        LocalDate firstDay = LocalDate.of(today.getYear(), today.getMonth(), 1);
+        LocalDate lastDay = today.with(TemporalAdjusters.lastDayOfMonth());
+        LocalDateTime dateStart = LocalDateTime.of(firstDay, LocalTime.MIN);
+        LocalDateTime dateEnd = LocalDateTime.of(lastDay, LocalTime.MAX);
+        String startTime = dateStart.format(DateTimeFormatter.ofPattern(pattern));
+        String endTime = dateEnd.format(DateTimeFormatter.ofPattern(pattern));
+        Map<String, String> res = new HashMap<>();
+        res.put("startTime", startTime);
+        res.put("endTime", endTime);
+        return res;
+    }
+
+    /**
+     * 获取当天开始时间
+     *
+     * @return
+     */
+    public static Date getStartToday() {
+        LocalDateTime today_start = LocalDateTime.of(LocalDate.now(), LocalTime.MIN);
+        ZoneId zoneId = ZoneId.systemDefault();;
+        ZonedDateTime zdt = today_start.atZone(zoneId);
+        return Date.from(zdt.toInstant());
+    }
+
+    /**
+     * 获取当前结束时间
+     *
+     * @return
+     */
+    public static Date getEndToday() {
+        LocalDateTime today_end = LocalDateTime.of(LocalDate.now(), LocalTime.MAX);
+        ZoneId zoneId = ZoneId.systemDefault();;
+        ZonedDateTime zdt = today_end.atZone(zoneId);
+        return Date.from(zdt.toInstant());
     }
 }

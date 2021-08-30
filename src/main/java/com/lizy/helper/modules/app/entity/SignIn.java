@@ -39,4 +39,10 @@ public class SignIn {
     @TableField("update_time")
     private Date updateTime;
 
+    /**
+     * 今天是否已经签到
+     */
+    @TableField(exist = false)
+    private Boolean todaySignIn;
+
 }
