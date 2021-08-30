@@ -1937,3 +1937,28 @@ Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations al
 07:56:08.769 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s358ms).
 08:01:50.485 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s706ms).
 08:05:08.631 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s142ms).
+08:07:02.298 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+08:07:02.309 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:13:33.693 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.4.1.Final
+20:13:33.701 [main] INFO  com.lizy.helper.Application - Starting Application using Java 1.8.0_181 on 192.168.0.106 with PID 48772 (/Users/dliony/app_workspace/helper/target/classes started by dliony in /Users/dliony/app_workspace/helper)
+20:13:33.701 [main] INFO  com.lizy.helper.Application - The following profiles are active: dev
+20:13:35.498 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9280 (http)
+20:13:35.507 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9280"]
+20:13:35.508 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:13:35.508 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+20:13:35.584 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:13:35.584 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1818 ms
+20:13:35.868 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:13:36.269 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:13:37.673 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/favicon.ico', GET] with []
+20:13:37.673 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.png', GET] with []
+20:13:37.673 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.ttf', GET] with []
+20:13:37.673 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/*.html', GET] with []
+20:13:37.673 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.css', GET] with []
+20:13:37.673 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**/*.js', GET] with []
+20:13:37.718 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f408ab6, org.springframework.security.web.context.SecurityContextPersistenceFilter@39851c5, org.springframework.security.web.header.HeaderWriterFilter@995ad50, org.springframework.web.filter.CorsFilter@6b063470, org.springframework.security.web.authentication.logout.LogoutFilter@50de907a, com.lizy.helper.security.filter.AdminAuthenticationProcessingFilter@7741ae1b, com.lizy.helper.security.filter.MyAuthenticationFilter@37e7c4cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@698f4aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7657d90b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@491893f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46e388ec, org.springframework.security.web.session.SessionManagementFilter@36525ab, org.springframework.security.web.access.ExceptionTranslationFilter@21280cbb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ed51944]
+20:13:38.247 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9280"]
+20:13:38.281 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9280 (http) with context path ''
+20:13:38.294 [main] INFO  com.lizy.helper.Application - Started Application in 5.213 seconds (JVM running for 6.828)
+20:14:03.894 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:14:03.909 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
