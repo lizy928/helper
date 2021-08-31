@@ -1,5 +1,6 @@
 package com.lizy.helper.utils;
 
+import com.lizy.helper.modules.common.dto.DateDto;
 import org.apache.commons.lang3.StringUtils;
 
 import java.lang.management.ManagementFactory;
@@ -464,24 +465,30 @@ public class DateTimeUtils {
     /**
      * 获取当月的开始时间和结束时间
      *
-     * @param today   时间
-     * @param pattern 时间格式
      * @return
      */
-    public static Map getMonthStartAndEndTime(LocalDate today, String pattern) {
-        if (Objects.isNull(today)) {
-            today = LocalDate.now();
-        }
+    public static DateDto getMonthStartAndEndTime() {
+        final LocalDate today = LocalDate.now();
         LocalDate firstDay = LocalDate.of(today.getYear(), today.getMonth(), 1);
         LocalDate lastDay = today.with(TemporalAdjusters.lastDayOfMonth());
         LocalDateTime dateStart = LocalDateTime.of(firstDay, LocalTime.MIN);
         LocalDateTime dateEnd = LocalDateTime.of(lastDay, LocalTime.MAX);
-        String startTime = dateStart.format(DateTimeFormatter.ofPattern(pattern));
-        String endTime = dateEnd.format(DateTimeFormatter.ofPattern(pattern));
-        Map<String, String> res = new HashMap<>();
-        res.put("startTime", startTime);
-        res.put("endTime", endTime);
-        return res;
+        DateDto dateDto = new DateDto();
+        dateDto.setStartTime(localTimeToDate(dateStart));
+        dateDto.setEndTime(localTimeToDate(dateEnd));
+        return dateDto;
+    }
+
+    /**
+     * localDateTime转date
+     *
+     * @param localDateTime
+     * @return
+     */
+    public static Date localTimeToDate(LocalDateTime localDateTime){
+        ZoneId zoneId = ZoneId.systemDefault();;
+        ZonedDateTime zdt = localDateTime.atZone(zoneId);
+        return Date.from(zdt.toInstant());
     }
 
     /**
@@ -491,9 +498,7 @@ public class DateTimeUtils {
      */
     public static Date getStartToday() {
         LocalDateTime today_start = LocalDateTime.of(LocalDate.now(), LocalTime.MIN);
-        ZoneId zoneId = ZoneId.systemDefault();;
-        ZonedDateTime zdt = today_start.atZone(zoneId);
-        return Date.from(zdt.toInstant());
+        return localTimeToDate(today_start);
     }
 
     /**
@@ -503,8 +508,6 @@ public class DateTimeUtils {
      */
     public static Date getEndToday() {
         LocalDateTime today_end = LocalDateTime.of(LocalDate.now(), LocalTime.MAX);
-        ZoneId zoneId = ZoneId.systemDefault();;
-        ZonedDateTime zdt = today_end.atZone(zoneId);
-        return Date.from(zdt.toInstant());
+        return localTimeToDate(today_end);
     }
 }

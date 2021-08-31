@@ -1,6 +1,5 @@
 package com.lizy.helper.modules.app.model;
 
-import com.lizy.helper.modules.app.entity.SignInRecord;
 import lombok.Data;
 
 import java.util.List;
@@ -14,5 +13,14 @@ public class SignInDetailModel {
 
     private Long id;
 
-    private List<SignInRecord> recordList;
+    private String name;
+
+    private String desc;
+
+    private List<SignInRecordModel> recordList;
+
+    private Integer monthCount;
+
+    private Integer totalCount;
+
 }

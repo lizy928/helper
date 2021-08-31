@@ -101,6 +101,7 @@ public class SignInController {
     @DeleteMapping("/{id}")
     public Object delete(@LoginUser User user, @PathVariable Long id) {
         signInService.deleteById(id);
+        signInRecordService.delete(new EntityWrapper<SignInRecord>().eq("sign_id_id", id));
         return ApiResult.ok("ok");
     }
 

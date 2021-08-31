@@ -3,10 +3,13 @@ package com.lizy.helper.modules.app.api;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.lizy.helper.modules.admin.entity.User;
 import com.lizy.helper.modules.app.entity.SignInRecord;
+import com.lizy.helper.modules.app.model.SignInDetailModel;
 import com.lizy.helper.modules.app.model.SignInRecordModel;
 import com.lizy.helper.modules.app.service.ISignInRecordService;
 import com.lizy.helper.modules.common.annotation.LoginUser;
+import com.lizy.helper.modules.common.dto.DateDto;
 import com.lizy.helper.modules.common.dto.output.ApiResult;
+import com.lizy.helper.utils.DateTimeUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
@@ -54,15 +57,21 @@ public class SignInRecordController {
      */
     @GetMapping("/{signId}")
     public Object list(@LoginUser User user, @PathVariable Long signId) {
-        List<SignInRecord> recordList = signInRecordService.selectList(new EntityWrapper<SignInRecord>()
-                .eq("sign_in_id", signId)
-        );
+        final DateDto dateDto = DateTimeUtils.getMonthStartAndEndTime();
+        List<SignInRecord> recordList = signInRecordService.listByDate(signId, dateDto.getStartTime(), dateDto.getEndTime());
         List<SignInRecordModel> modelList = recordList.stream().map(signInRecord -> {
             SignInRecordModel signInRecordModel = new SignInRecordModel();
             BeanUtils.copyProperties(signInRecord, signInRecordModel);
             return signInRecordModel;
         }).collect(Collectors.toList());
+        SignInDetailModel detailModel = new SignInDetailModel();
+        detailModel.setId(signId);
+        detailModel.setRecordList(modelList);
+        detailModel.setMonthCount(modelList.size());
 
-        return ApiResult.ok("ok", modelList);
+        int totalCount = signInRecordService.selectCount(new EntityWrapper<SignInRecord>().eq("sign_in_id", signId));
+        detailModel.setTotalCount(totalCount);
+
+        return ApiResult.ok("ok", detailModel);
     }
 }
