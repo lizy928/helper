@@ -8,7 +8,10 @@ spring:
       maximum-pool-size: 10
       minimum-idle: 3
       connection-test-query: SELECT 1
-
+  servlet:
+    multipart:
+      max-request-size: 50MB
+      max-file-size: 20MB
 
 # 关闭安全验证
 management:
@@ -54,6 +57,9 @@ helper:
       - /**/*.css
       - /**/*.png
       - /**/*.ico
+      - /**/*.jepg
+      - /**/*.gif
+
 
 robot:
   url: http://api.qingyunke.com/api.php?key=free&appid=0&msg=
@@ -61,3 +67,6 @@ robot:
 netease:
   commentUrl: https://api.4gml.com/NeteaseMusic?max=100&min=10
   num: 10
+
+config:
+  filePath: /Users/dliony/test/upload

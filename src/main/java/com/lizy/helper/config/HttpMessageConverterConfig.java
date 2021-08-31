@@ -27,8 +27,7 @@ public class HttpMessageConverterConfig {
         // 3.在converter中添加配置信息
         fastConverter.setFastJsonConfig(fastJsonConfig);
         // 4.将converter赋值给HttpMessageConverter
-        HttpMessageConverter<?> converter = fastConverter;
         // 5.返回HttpMessageConverters对象
-        return new HttpMessageConverters(converter);
+        return new HttpMessageConverters(fastConverter);
     }
 }
