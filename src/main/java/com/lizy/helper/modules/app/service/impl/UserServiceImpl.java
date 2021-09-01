@@ -40,13 +40,4 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         userMapper.insert(user);
     }
 
-    @Override
-    public void updatePassword(PasswordModel passwordModel) {
-        final User user = UserTokenUtil.getUser();
-        if(user.getPassword().equals(PasswordUtils.encodePassword(passwordModel.getPassword(), user.getSalt()))){
-            user.setPassword(PasswordUtils.encodePassword(passwordModel.getNewPassword(), user.getSalt()));
-            user.setGmtModified(new Date());
-            userMapper.updateById(user);
-        }
-    }
 }

@@ -41,6 +41,8 @@ helper:
     loginAfterTime: 10
     ignoreUrls:
       - /app/user/register
+      - /app/user/password
+      - /app/index/comment
       - /login
       - /api/system/user/getCurrentUserInfo
       - /index

@@ -78,9 +78,9 @@ public class SystemLogAspect {
             sysLog.setUserId(0);
 //            sysLog.setName(result.getMessage());
         } else {
-            if (userMapper.getUserInfoByToken(token) != null) {
-                sysLog.setUserId(userMapper.getUserInfoByToken(token).getId());
-            }
+//            if (userMapper.getUserInfoByToken(token) != null) {
+//                //sysLog.setUserId(userMapper.getUserInfoByToken(token).getId());
+//            }
         }
         sysLog.setStatus(result.getCode());
         sysLog.setExecuteTime(totalTime + " ms");

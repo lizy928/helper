@@ -55,7 +55,7 @@ public class EventReminderController {
         );
 
         List<EventReminderModel> modelList = reminderList.stream().map(item -> {
-            EventReminderModel eventReminderModel = new EventReminderModel();
+            EventReminderModel eventReminderModel;
             if(item.getTimeType() == 0){
                 // 获取有多少时间
                 eventReminderModel = LunarSolarConverterUtil.getTimeDiff(item.getTime());
@@ -64,6 +64,7 @@ public class EventReminderController {
                 final Date date = LunarSolarConverterUtil.lunarToDate(item.getTime());
                 eventReminderModel = LunarSolarConverterUtil.getTimeDiff(date);
             }
+            eventReminderModel.setId(item.getId());
             eventReminderModel.setName(item.getName());
             eventReminderModel.setCreateTime(item.getCreateTime());
             eventReminderModel.setUpdateTime(item.getUpdateTime());

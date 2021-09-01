@@ -41,6 +41,8 @@ helper:
     loginAfterTime: 10
     ignoreUrls:
       - /app/user/register
+      - /app/user/password
+      - /app/index/comment
       - /login
       - /api/system/user/getCurrentUserInfo
       - /index
@@ -57,7 +59,8 @@ helper:
       - /**/*.css
       - /**/*.png
       - /**/*.ico
-      - /app/file/download/*
+      - /**/*.jepg
+      - /**/*.gif
 
 robot:
   url: http://api.qingyunke.com/api.php?key=free&appid=0&msg=
@@ -67,4 +70,4 @@ netease:
   num: 10
 
 config:
-  filePath: /Users/dliony/test/upload
+  filePath: /usr/local/upload

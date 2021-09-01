@@ -19,5 +19,4 @@ public interface IUserService extends IService<User> {
      */
     void register(UserModel userModel);
 
-    void updatePassword(PasswordModel passwordModel);
 }
