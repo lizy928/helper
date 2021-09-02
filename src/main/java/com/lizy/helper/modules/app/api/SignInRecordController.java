@@ -1,22 +1,17 @@
 package com.lizy.helper.modules.app.api;
 
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.lizy.helper.modules.admin.entity.User;
-import com.lizy.helper.modules.app.entity.SignInRecord;
 import com.lizy.helper.modules.app.model.SignInDetailModel;
 import com.lizy.helper.modules.app.model.SignInRecordModel;
 import com.lizy.helper.modules.app.service.ISignInRecordService;
 import com.lizy.helper.modules.common.annotation.LoginUser;
-import com.lizy.helper.modules.common.dto.DateDto;
 import com.lizy.helper.modules.common.dto.output.ApiResult;
-import com.lizy.helper.utils.DateTimeUtils;
-import org.springframework.beans.BeanUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.text.ParseException;
 
 /**
  * 打卡记录
@@ -53,25 +48,16 @@ public class SignInRecordController {
      * 记录查询
      *
      * @param user 当前登录对象
+     * @param date  月份 2021-9
      * @return
      */
     @GetMapping("/{signId}")
-    public Object list(@LoginUser User user, @PathVariable Long signId) {
-        final DateDto dateDto = DateTimeUtils.getMonthStartAndEndTime();
-        List<SignInRecord> recordList = signInRecordService.listByDate(signId, dateDto.getStartTime(), dateDto.getEndTime());
-        List<SignInRecordModel> modelList = recordList.stream().map(signInRecord -> {
-            SignInRecordModel signInRecordModel = new SignInRecordModel();
-            BeanUtils.copyProperties(signInRecord, signInRecordModel);
-            return signInRecordModel;
-        }).collect(Collectors.toList());
-        SignInDetailModel detailModel = new SignInDetailModel();
-        detailModel.setId(signId);
-        detailModel.setRecordList(modelList);
-        detailModel.setMonthCount(modelList.size());
-
-        int totalCount = signInRecordService.selectCount(new EntityWrapper<SignInRecord>().eq("sign_in_id", signId));
-        detailModel.setTotalCount(totalCount);
-
-        return ApiResult.ok("ok", detailModel);
+    public Object list(@LoginUser User user, @PathVariable Long signId, @RequestParam String date) throws ParseException {
+        final String[] split = date.split("-");
+        if(StringUtils.isBlank(date) || split.length < 2 ){
+            return ApiResult.ok("参数异常！");
+        }
+        SignInDetailModel signInDetailModel = signInRecordService.listDetail(signId, split);
+        return ApiResult.ok("ok", signInDetailModel);
     }
 }

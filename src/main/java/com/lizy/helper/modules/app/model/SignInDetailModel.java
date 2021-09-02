@@ -23,4 +23,6 @@ public class SignInDetailModel {
 
     private Integer totalCount;
 
+    private Boolean todaySignIn;
+
 }

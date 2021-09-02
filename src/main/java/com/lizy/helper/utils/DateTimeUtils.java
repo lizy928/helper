@@ -467,8 +467,8 @@ public class DateTimeUtils {
      *
      * @return
      */
-    public static DateDto getMonthStartAndEndTime() {
-        final LocalDate today = LocalDate.now();
+    public static DateDto getMonthStartAndEndTime(Integer year, Integer month) {
+        final LocalDate today = LocalDate.of(year, month, 1);
         LocalDate firstDay = LocalDate.of(today.getYear(), today.getMonth(), 1);
         LocalDate lastDay = today.with(TemporalAdjusters.lastDayOfMonth());
         LocalDateTime dateStart = LocalDateTime.of(firstDay, LocalTime.MIN);
@@ -509,5 +509,12 @@ public class DateTimeUtils {
     public static Date getEndToday() {
         LocalDateTime today_end = LocalDateTime.of(LocalDate.now(), LocalTime.MAX);
         return localTimeToDate(today_end);
+    }
+
+    public static void main(String[] args) throws ParseException {
+        String dateStr = "2021-9";
+        final String[] split = dateStr.split("-");
+        final DateDto startAndEndTime = DateTimeUtils.getMonthStartAndEndTime(Integer.valueOf(split[0]), Integer.valueOf(split[1]));
+        System.out.println();
     }
 }

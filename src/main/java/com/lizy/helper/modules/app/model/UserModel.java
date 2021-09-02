@@ -15,7 +15,7 @@ public class UserModel {
 
     private String nickName;
 
-    private Integer sex;
+    private String sex;
 
     private String avatar;
 

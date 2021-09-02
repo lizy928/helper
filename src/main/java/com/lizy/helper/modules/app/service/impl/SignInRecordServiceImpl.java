@@ -4,14 +4,18 @@ import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.lizy.helper.modules.app.entity.SignInRecord;
 import com.lizy.helper.modules.app.mapper.SignInRecordMapper;
+import com.lizy.helper.modules.app.model.SignInDetailModel;
 import com.lizy.helper.modules.app.model.SignInRecordModel;
 import com.lizy.helper.modules.app.service.ISignInRecordService;
+import com.lizy.helper.modules.common.dto.DateDto;
 import com.lizy.helper.utils.DateTimeUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author lzy
@@ -45,5 +49,29 @@ public class SignInRecordServiceImpl extends ServiceImpl<SignInRecordMapper, Sig
                 .eq("sign_in_id", signInId)
                 .between("sign_in_time", startTime, endTime));
         return  recordList;
+    }
+
+    @Override
+    public SignInDetailModel listDetail(Long signId, String[] split) {
+        final DateDto startAndEndTime = DateTimeUtils.getMonthStartAndEndTime(Integer.valueOf(split[0]), Integer.valueOf(split[1]));
+        List<SignInRecord> recordList = listByDate(signId, startAndEndTime.getStartTime(), startAndEndTime.getEndTime());
+        List<SignInRecordModel> modelList = recordList.stream().map(signInRecord -> {
+            SignInRecordModel signInRecordModel = new SignInRecordModel();
+            BeanUtils.copyProperties(signInRecord, signInRecordModel);
+            return signInRecordModel;
+        }).collect(Collectors.toList());
+        SignInDetailModel detailModel = new SignInDetailModel();
+        detailModel.setId(signId);
+        detailModel.setRecordList(modelList);
+        detailModel.setMonthCount(modelList.size());
+
+        int totalCount = selectCount(new EntityWrapper<SignInRecord>().eq("sign_in_id", signId));
+        detailModel.setTotalCount(totalCount);
+
+        boolean todaySignIn = selectCount(new EntityWrapper<SignInRecord>().eq("sign_in_id", signId)
+                .eq("sign_in_time", DateTimeUtils.dateFormat(new Date(), DateTimeUtils.DATE_PATTERN))
+        ) > 0;
+        detailModel.setTodaySignIn(todaySignIn);
+        return detailModel;
     }
 }

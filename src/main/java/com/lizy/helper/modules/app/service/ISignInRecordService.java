@@ -2,6 +2,7 @@ package com.lizy.helper.modules.app.service;
 
 import com.baomidou.mybatisplus.service.IService;
 import com.lizy.helper.modules.app.entity.SignInRecord;
+import com.lizy.helper.modules.app.model.SignInDetailModel;
 import com.lizy.helper.modules.app.model.SignInRecordModel;
 
 import java.util.Date;
@@ -27,4 +28,13 @@ public interface ISignInRecordService extends IService<SignInRecord> {
      * @return
      */
     List<SignInRecord> listByDate(Long signInId, Date startTime, Date endTime);
+
+    /**
+     * 查询打卡记录详情
+     *
+     * @param signId 项目id
+     * @param split 时间
+     * @return
+     */
+    SignInDetailModel listDetail(Long signId, String[] split);
 }
